@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emeregency Service</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind Css & Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="hind-madurai-font bg-[rgba(65,255,106,0.10)] xl:max-w-7xl xl:mx-auto">
+    <!------------------------ Hero Section ----------------------------------->
+    <section>
+        <nav class="w-full h-14 flex items-center justify-between backdrop-blur-2xl p-2 fixed left-0 top-0">
+            <div class="flex items-center gap-1 h-[40px]">
+                <img src="./assets/logo.png" class="h-full">
+                <div>
+                    <h1 class="font-extrabold text-[#006747]">Emeregency <br> Service</h1>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between gap-3 font-bold">
+                <div
+                    class="w-[4rem] h-[2.5rem] bg-[rgba(65,255,106,0.10)] rounded-4xl flex items-center justify-evenly xl:w-[5rem]">
+                    <p class="text-[20px]" id="heartCount">0</p>
+                    <img src="./assets/heart.png" class="h-[60%]">
+                </div>
+                <div
+                    class="w-[4rem] h-[2.5rem] bg-[rgba(65,255,106,0.10)] rounded-4xl flex items-center justify-evenly xl:w-[5rem]">
+                    <p class="text-[20px]" id="coinCount">100</p>
+                    <img src="./assets/coin.png" class="h-[60%]">
+                </div>
+                <div class="w-[4.4rem] h-[2.5rem] bg-[#00A63E] rounded-4xl flex items-center justify-evenly text-white xl:w-[5.2rem]">
+                    <p class="text-[20px]" id="copyCount">0</p>
+                    <p class="text-[18px]">Copy</p>
+                </div>
+            </div>
+        </nav>
+
+        <div
+            class="h-60 bg-[#013223] bg-gradient-to-r from-[#013223]from-0% via-[#006747] via-50% to-[#013223] to-100% text-white mt-14 flex flex-col items-center justify-center gap-5">
+            <img src="./assets/logo-dark.png" class="h-[37%]">
+            <p class="font-bold text-[22px]">Emergency Service Directory</p>
+            <p class="text-center font-semibold">Government Emergency Services at Your Fingertip – A Project by
+                Government of the People’s Republic of Bangladesh</p>
+        </div>
+    </section>
+
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
