@@ -29,7 +29,7 @@ function copyIcon(id1, id2) {
         console.log(msg);
 
         navigator.clipboard.writeText(msg).then(function () {
-            alert(Number has copied: ${msg})
+            alert(`Number has copied: ${msg}`)
         })
     })
 }
@@ -52,7 +52,7 @@ function callIcon(id1, id2, id3) {
         if (coinCount > 0) {
             coinCount -= 20
             document.getElementById('coinCount').innerText = coinCount
-            alert(📞 Calling ${document.getElementById(id3).innerText} ${document.getElementById(id2).innerText}.....)
+            alert(`📞 Calling ${document.getElementById(id3).innerText} ${document.getElementById(id2).innerText}.....`)
         }
         else {
 
